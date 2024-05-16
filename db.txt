@@ -12,3 +12,9 @@ CREATE TABLE topcoder_users (
     PRIMARY KEY (id)
 );
 
+INSERT INTO topcoder_users(name, apellidos, ciudad, correo, tc_name) VALUES('Jake', 'Miranda','Lima','jake@gmail.com', 'JakeML');
+INSERT INTO topcoder_users(name, apellidos, ciudad, correo, tc_name) VALUES('Mathew', 'Flores','Arequipa','mathew@gmail.com', 'MathewFA');
+INSERT INTO topcoder_users(name, apellidos, ciudad, correo, tc_name) VALUES('Bob', 'Quispe','Cusco','bob@gmail.com', 'BobQC');
+commit;
+
+
